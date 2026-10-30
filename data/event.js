@@ -9,14 +9,14 @@ const evento = {
   ========================= */
   fecha: {
     texto: "26 de Diciembre de 2026",
-    iso: "2026-12-26T16:00:00",
+    iso: "2026-12-26T16:00:00"
   },
 
   /* =========================
      MÚSICA
   ========================= */
   musica: {
-    archivo: "assets/music/Zoé - Luna (Unplugged).mp3",
+    archivo: "assets/music/Zoé - Luna (Unplugged).mp3"
   },
 
   /* =========================
@@ -24,7 +24,10 @@ const evento = {
   ========================= */
   padres:  /* null, */  {
     titulo: "Con el amor de mi madre",
-    nombres: ["Gabriela Ramirez Campos", "&", ""],
+    nombres: [
+      "Gabriela Ramirez Campos",
+      "&"
+    ]
   }, 
 
   /* =========================
@@ -32,7 +35,7 @@ const evento = {
   ========================= */
   padrinos: {
     titulo: "Con el cariño de mis padrinos",
-    nombres: ["Omar Ramírez Campos", "&", "Nallely Tagal Gómez"],
+    nombres: ["Omar Ramírez Campos", "&", "Nallely Tagal Gómez"]
   },
 
   /* =========================
