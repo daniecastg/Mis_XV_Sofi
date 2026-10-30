@@ -25,8 +25,7 @@ const evento = {
   padres: {
     titulo: "Con el amor de mi madre",
     nombres: [
-      "Gabriela Ramirez Campos",
-                "&"
+      "Gabriela Ramirez Campos"
     ]
   }, 
 
@@ -34,7 +33,7 @@ const evento = {
      PADRINOS
   ========================= */
   padrinos: {
-    titulo: "Con el cariño de mis padrinos",
+    titulo: "El cariño de mis padrinos",
     nombres: ["Omar Ramírez Campos", "&", "Nallely Tagal Gómez"]
   },
 
