@@ -9,7 +9,7 @@ const evento = {
   ========================= */
   fecha: {
     texto: "26 de Diciembre de 2026",
-    iso: "2026-12-26T16:00:00",
+    iso: "2026-12-26T 16:00:00",
   },
 
   /* =========================
@@ -22,16 +22,16 @@ const evento = {
   /* =========================
      PADRES
   ========================= */
-  padres:  null, /* {
-    titulo: "Con el amor de mis padres",
-    nombres: ["", "&", ""],
-  }, */
+  padres:  /* null, */  {
+    titulo: "Con el amor de mi madre",
+    nombres: ["Gabriela Ramirez Campos", "&", ""],
+  }, 
 
   /* =========================
      PADRINOS
   ========================= */
   padrinos: {
-    titulo: "Con el Cariño de mis padrinos",
+    titulo: "Con el cariño de mis padrinos",
     nombres: ["Omar Ramírez Campos", "&", "Nallely Tagal Gómez"],
   },
 
