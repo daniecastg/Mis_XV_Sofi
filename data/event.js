@@ -26,7 +26,7 @@ const evento = {
     titulo: "Con el amor de mi madre",
     nombres: [
       "Gabriela Ramirez Campos"
-    ]
+    ],
   }, 
 
   /* =========================
