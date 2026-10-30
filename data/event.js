@@ -22,11 +22,11 @@ const evento = {
   /* =========================
      PADRES
   ========================= */
-  padres:  /* null, */  {
+  padres: {
     titulo: "Con el amor de mi madre",
     nombres: [
       "Gabriela Ramirez Campos",
-      "&"
+                "&"
     ]
   }, 
 
@@ -68,8 +68,8 @@ const evento = {
         "Accesorios",
         "Ropa",
         "Bolsos",
-        "Un detalle especial",
-      ],
+        "Un detalle especial"
+      ]
     },
 
     /* Mesas de regalos */
@@ -84,9 +84,9 @@ const evento = {
         {
           nombre: "Amazon",
           enlace: "",
-        },
-      ],
-    },
+        }
+      ]
+    }
   },
 
   /* =========================
@@ -111,7 +111,7 @@ const evento = {
   whatsapp: {
     telefono: "52 5621973586",
     mensajeConfirmacion:
-      "🎉 ¡Hola! Somos la familia [aqui coloca el nombre] y con mucho gusto queremos confirmar nuestra asistencia a los XV años de {evento} 🎈👑🎊",
+      "🎉 ¡Hola! Somos la familia [aqui coloca el nombre] y con mucho gusto queremos confirmar nuestra asistencia a los XV años de {evento} 🎈👑🎊"
   },
 
   /* =========================
@@ -127,37 +127,37 @@ const evento = {
       hora: "17:00",
       nombre: "Misa Puntual",
       icono: "assets/img/icons/misa.gif",
-      lado: "left",
+      lado: "left"
     },
     {
       hora: "18:00",
       nombre: "Recepción",
       icono: "assets/img/icons/recepcion.gif",
-      lado: "right",
+      lado: "right"
     },
     {
       hora: "19:30",
       nombre: "Cena",
       icono: "assets/img/icons/cena.gif",
-      lado: "left",
+      lado: "left"
     },
     {
       hora: "22:00",
       nombre: "Vals",
       icono: "assets/img/icons/vals.gif",
-      lado: "right",
+      lado: "right"
     },
     {
       hora: "22:30",
       nombre: "Pista de Baile",
       icono: "assets/img/icons/baile.gif",
-      lado: "left",
+      lado: "left"
     }, 
     { 
       hora: "",
       nombre: "Fin",
       icono: "assets/img/icons/salida.gif",
-      lado: "right",
+      lado: "right"
     },
   ],
 
@@ -169,7 +169,7 @@ const evento = {
     codigo: "Semiformal · Casual Elegante",
     descripcion:
       "Queremos que disfrutes y te sientas cómodo durante la celebración. Te sugerimos un estilo elegante y relajado para esta ocasión especial.",
-    colorReservado: "Azúl Celeste",
+    colorReservado: "Azúl Celeste"
   },
 
   /* =========================
@@ -179,8 +179,8 @@ const evento = {
     titulo: "Políticas del evento",
     reglas: [
       "Llegar puntuales",
-      "Queda estrictamente prohibido fumar en el interior de la carpa",
-    ],
+      "Queda estrictamente prohibido fumar en el interior de la carpa"
+    ]
   },
 
   /* =========================
