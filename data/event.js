@@ -38,7 +38,7 @@ const evento = {
     "Omar Ramírez Campos",
     "&",
     "Nayeli Tagal Gómez"
-    ]
+    ],
   },
 
   /* =========================
