@@ -34,7 +34,11 @@ const evento = {
   ========================= */
   padrinos: {
     titulo: "El cariño de mis padrinos",
-    nombres: ["Omar Ramírez Campos", "&", "Nallely Tagal Gómez"]
+    nombres: [
+    "Omar Ramírez Campos",
+    "&",
+    "Nayeli Tagal Gómez"
+    ]
   },
 
   /* =========================
