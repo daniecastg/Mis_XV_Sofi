@@ -354,7 +354,20 @@ if (btnWhatsapp && evento?.whatsapp) {
     "{evento}",
     evento.nombre,
   );
-  btnWhatsapp.href = `https://wa.me/${evento.whatsapp.telefono}?text=${encodeURIComponent(mensaje)}`;
+
+  // Normalizar número telefónico
+  let telefono = evento.whatsapp.telefono.replace(/\D/g, "");
+
+  // Agregar código de país si solo contiene 10 dígitos
+  if (telefono.length === 10) {
+    telefono = "52" + telefono;
+  }
+
+  // Generar enlace de WhatsApp
+  btnWhatsapp.href = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+
+  btnWhatsapp.target = "_blank";
+  btnWhatsapp.rel = "noopener noreferrer";
 }
 
 /* =========================
@@ -412,8 +425,9 @@ if (timelineLista && evento.itinerario && evento.itinerario.length) {
     .map((item) => {
       return `
         <li class="timeline-item ${item.lado}">
-          ${item.lado === "left"
-          ? `
+          ${
+            item.lado === "left"
+              ? `
               <div class="evento-texto">
                 <span class="hora">${item.hora}</span>
                 <span class="nombre">${item.nombre}</span>
@@ -423,7 +437,7 @@ if (timelineLista && evento.itinerario && evento.itinerario.length) {
                 <img src="${item.icono}" alt="${item.nombre}" class="icono" />
               </div>
               `
-          : `
+              : `
               <div class="evento-icono">
                 <img src="${item.icono}" alt="${item.nombre}" class="icono" />
               </div>
@@ -433,7 +447,7 @@ if (timelineLista && evento.itinerario && evento.itinerario.length) {
                 <span class="nombre">${item.nombre}</span>
               </div>
               `
-        }
+          }
         </li>
       `;
     })
